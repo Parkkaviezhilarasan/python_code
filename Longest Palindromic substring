@@ -1,0 +1,13 @@
+class Solution(object):
+    def longestPalindrome(self, s):
+        n=len(s)
+        longest=""
+        def ispalindrome(sub):
+            return sub==sub[::-1]
+        
+        for i in range(n):
+            for j in range(i,n):
+                substring= s[i:j+1]
+                if ispalindrome(substring) and len(substring) > len (longest):
+                    longest=substring
+        return longest 
