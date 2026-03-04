@@ -4,4 +4,5 @@
 2) Palindrome Number (9)
 3) Longest Palindromic Substring (5)
 4) Remove Duplicates from Sorted array (26)
-5) Contains Duplicate II (219)
+5) Contains Duplicate (217)
+6) Contains Duplicate II (219)
