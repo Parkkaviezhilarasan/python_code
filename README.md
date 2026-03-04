@@ -3,4 +3,5 @@
 1) Two sum (1)
 2) Palindrome Number (9)
 3) Longest Palindromic Substring (5)
-4)Remove Duplicates from Sorted array (26)
+4) Remove Duplicates from Sorted array (26)
+5) Contains Duplicate II (219)
