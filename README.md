@@ -7,3 +7,5 @@
 5) Contains Duplicate (217)
 6) Contains Duplicate II (219)
 7) Summary ranges (228)
+8) Move Zeroes (283)
+9) Missing Numbers (268)      
