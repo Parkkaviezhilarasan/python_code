@@ -1,0 +1,6 @@
+class Solution(object):
+    def intersect(self, nums1, nums2):
+        c_n=Counter(nums1)
+        c_n2=Counter(nums2)
+        res=c_n & c_n2
+        return list(res.elements())
