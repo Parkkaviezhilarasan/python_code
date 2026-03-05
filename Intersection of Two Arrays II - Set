@@ -1,0 +1,7 @@
+class Solution(object):
+    def intersect(self, nums1, nums2):
+        r=[]
+        c=set(nums1)&set(nums2)
+        for num in c:
+            r.extend([num]*min(nums1.count(num),nums2.count(num)))
+        return r
