@@ -1,0 +1,7 @@
+class Solution(object):
+    def findMaxConsecutiveOnes(self, nums):
+        max_len = 0
+        for key, group in groupby(nums):
+            if key == 1:
+                max_len = max(max_len, len(list(group)))
+        return max_len
