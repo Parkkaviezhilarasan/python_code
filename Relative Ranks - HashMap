@@ -10,7 +10,7 @@ class Solution(object):
             if rank==1:
                 res.append("Gold Medal")
             elif rank==2:
-                res.append("Silver Medal")
+                res.append("Silver Medal") 
             elif rank==3:
                 res.append("Bronze Medal")
             else:
