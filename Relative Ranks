@@ -1,0 +1,18 @@
+class Solution(object):
+    def findRelativeRanks(self, score):
+        sorted_score=sorted(score,reverse=True)
+        rank_map={}
+        for i, val in enumerate(sorted_score):
+            rank_map[val]=i+1
+        res=[]
+        for s in score:
+            rank=rank_map[s]
+            if rank==1:
+                res.append("Gold Medal")
+            elif rank==2:
+                res.append("Silver Medal")
+            elif rank==3:
+                res.append("Bronze Medal")
+            else:
+                res.append(str(rank))
+        return res
